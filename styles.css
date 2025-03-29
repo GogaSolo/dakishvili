@@ -580,21 +580,21 @@ aside .winesdiv .winesitem img {
   transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-aside {
+.asi {
   width: 100%;
   height: 700px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-aside .asideleft {
+.asi .asideleft {
   width: 50%;
   height: 100%;
   padding-left: 220px;
   display: flex;
   flex-direction: column;
 }
-aside .asideleft h1 {
+.asi .asideleft h1 {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -606,7 +606,7 @@ aside .asideleft h1 {
   -ms-word-wrap: break-word;
   word-wrap: break-word;
 }
-aside .asideleft h3 {
+.asi .asideleft h3 {
   font-family: "Ibarra Real Nova", serif;
   display: flex;
   align-items: center;
@@ -614,14 +614,14 @@ aside .asideleft h3 {
   color: #354c04;
   padding-right: 400px;
 }
-aside .asideleft h3 hr {
+.asi .asideleft h3 hr {
   width: 30px;
   height: 1px;
   outline: none;
   border: none;
   background-color: #354c04;
 }
-aside .asideleft p {
+.asi .asideleft p {
   margin-top: 40px;
   color: #333333;
   font-size: 16px;
@@ -629,18 +629,18 @@ aside .asideleft p {
   letter-spacing: 0.05em;
   font-family: "Barlow Condensed", sans-serif;
 }
-aside .asideleft .btndiv {
+.asi .asideleft .btndiv {
   margin-top: 40px;
   width: 180px;
   height: 53px;
 }
-aside .asideleft a {
+.asi .asideleft a {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-decoration: none;
 }
-aside .asideleft .btn {
+.asi .asideleft .btn {
   position: relative;
   width: 100%;
   height: 100%;
@@ -651,7 +651,7 @@ aside .asideleft .btn {
   cursor: pointer;
   overflow: hidden;
 }
-aside .asideleft .btn:before, aside .asideleft .btn:after {
+.asi .asideleft .btn:before, .asi .asideleft .btn:after {
   content: "";
   position: absolute;
   left: 0;
@@ -659,19 +659,19 @@ aside .asideleft .btn:before, aside .asideleft .btn:after {
   width: 100%;
   background-color: #333333;
 }
-aside .asideleft .btn:before {
+.asi .asideleft .btn:before {
   top: 0;
 }
-aside .asideleft .btn:after {
+.asi .asideleft .btn:after {
   bottom: 0;
 }
-aside .asideleft .btn:hover > * > *:before, aside .asideleft .btn:hover > * > *:after {
+.asi .asideleft .btn:hover > * > *:before, .asi .asideleft .btn:hover > * > *:after {
   transform: translate3d(0, 0, 0);
 }
-aside .asideleft .btn:hover > * > * > *:before, aside .asideleft .btn:hover > * > * > *:after {
+.asi .asideleft .btn:hover > * > * > *:before, .asi .asideleft .btn:hover > * > * > *:after {
   transform: translate3d(0, 0, 0);
 }
-aside .asideleft .btn > *:before, aside .asideleft .btn > *:after {
+.asi .asideleft .btn > *:before, .asi .asideleft .btn > *:after {
   content: "";
   position: absolute;
   top: 0;
@@ -679,13 +679,13 @@ aside .asideleft .btn > *:before, aside .asideleft .btn > *:after {
   width: 1px;
   background-color: #333333;
 }
-aside .asideleft .btn > *:before {
+.asi .asideleft .btn > *:before {
   left: 0;
 }
-aside .asideleft .btn > *:after {
+.asi .asideleft .btn > *:after {
   right: 0;
 }
-aside .asideleft .btn > * > *:before, aside .asideleft .btn > * > *:after {
+.asi .asideleft .btn > * > *:before, .asi .asideleft .btn > * > *:after {
   content: "";
   position: absolute;
   left: 0;
@@ -694,17 +694,17 @@ aside .asideleft .btn > * > *:before, aside .asideleft .btn > * > *:after {
   width: 100%;
   background-color: #354c04;
 }
-aside .asideleft .btn > * > *:before {
+.asi .asideleft .btn > * > *:before {
   top: 0;
   transform: translate3d(-105%, 0, 0);
   transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
-aside .asideleft .btn > * > *:after {
+.asi .asideleft .btn > * > *:after {
   bottom: 0;
   transform: translate3d(105%, 0, 0);
   transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
-aside .asideleft .btn > * > * > *:before, aside .asideleft .btn > * > * > *:after {
+.asi .asideleft .btn > * > * > *:before, .asi .asideleft .btn > * > * > *:after {
   content: "";
   position: absolute;
   top: 0;
@@ -713,17 +713,17 @@ aside .asideleft .btn > * > * > *:before, aside .asideleft .btn > * > * > *:afte
   width: 1px;
   background-color: #354c04;
 }
-aside .asideleft .btn > * > * > *:before {
+.asi .asideleft .btn > * > * > *:before {
   left: 0;
   transform: translate3d(0, 105%, 0);
   transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
-aside .asideleft .btn > * > * > *:after {
+.asi .asideleft .btn > * > * > *:after {
   right: 0;
   transform: translate3d(0, -105%, 0);
   transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
-aside .asideright {
+.asi .asideright {
   width: 70%;
   height: 100%;
   display: flex;
@@ -731,16 +731,16 @@ aside .asideright {
   gap: 10px;
   position: relative;
 }
-aside .asideright .leftimgbig {
+.asi .asideright .leftimgbig {
   width: 40%;
   height: 90%;
 }
-aside .asideright .leftimgbig .img1 {
+.asi .asideright .leftimgbig .img1 {
   width: 100%;
   height: 100%;
   position: relative;
 }
-aside .asideright .leftimgbig .img1 img {
+.asi .asideright .leftimgbig .img1 img {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -749,7 +749,7 @@ aside .asideright .leftimgbig .img1 img {
   -o-object-position: center;
      object-position: center;
 }
-aside .asideright .leftimgbig h3 {
+.asi .asideright .leftimgbig h3 {
   margin-top: 30px;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
@@ -760,7 +760,7 @@ aside .asideright .leftimgbig h3 {
   -ms-word-wrap: break-word;
   word-wrap: break-word;
 }
-aside .asideright .leftimgbig h5 {
+.asi .asideright .leftimgbig h5 {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -770,16 +770,16 @@ aside .asideright .leftimgbig h5 {
   -ms-word-wrap: break-word;
   word-wrap: break-word;
 }
-aside .asideright .rightbigdiv {
+.asi .asideright .rightbigdiv {
   width: 40%;
   height: 90%;
 }
-aside .asideright .rightbigdiv .img1 {
+.asi .asideright .rightbigdiv .img1 {
   width: 100%;
   height: 100%;
   position: relative;
 }
-aside .asideright .rightbigdiv .img1 img {
+.asi .asideright .rightbigdiv .img1 img {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -788,7 +788,7 @@ aside .asideright .rightbigdiv .img1 img {
   -o-object-position: center;
      object-position: center;
 }
-aside .asideright .rightbigdiv h3 {
+.asi .asideright .rightbigdiv h3 {
   margin-top: 30px;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
@@ -799,7 +799,7 @@ aside .asideright .rightbigdiv h3 {
   -ms-word-wrap: break-word;
   word-wrap: break-word;
 }
-aside .asideright .rightbigdiv h5 {
+.asi .asideright .rightbigdiv h5 {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -869,7 +869,6 @@ figure {
 .gvinischamonatvali .gvinoebi {
   width: 70%;
   height: 70%;
-  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -877,5 +876,699 @@ figure {
 .gvinischamonatvali .gvinoebi .gvinoitemdiv {
   width: 100%;
   height: 70%;
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.gvinischamonatvali .gvinoebi .gvinoitemdiv .gvinoimg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.gvinischamonatvali .gvinoebi .gvinoitemdiv .gvinoimg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 -86px;
+     object-position: 0 -86px;
+}
+.gvinischamonatvali .gvinoebi .gvinoitemdiv .gvinotext {
+  width: 100%;
+  height: 20%;
+  color: rgb(36, 51, 5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gvinischamonatvali .gvinoebi .gvinoitemdiv .gvinotext h4 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #243305;
+  font-size: 20px;
+  line-height: 1.25em;
+  letter-spacing: 0.1em;
+  margin: 5px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.gvinischamonatvali .gvinoebi .gvinoitemdiv .gvinotext p {
+  font-family: "Ibarra Real Nova", serif;
+  font-style: italic;
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  flex-wrap: wrap;
+  display: block;
+  margin: -1px 0 -2px;
+}
+
+.sct {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  padding: 138px 0px 150px 0px;
+}
+.sct .section-left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+.sct .section-left h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #243305;
+  font-size: 50px;
+  line-height: 1.16em;
+  letter-spacing: 0.05em;
+  margin: 25px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.sct .section-left h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #354c04;
+  padding-right: 400px;
+}
+.sct .section-left h3 hr {
+  width: 30px;
+  height: 1px;
+  outline: none;
+  border: none;
+  background-color: #354c04;
+}
+.sct .section-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  color: #333333;
+  font-size: 20px;
+}
+.sct .section-right p {
+  --widgets-spacing: 20px 20px;
+  width: 600px;
+}
+.sct .section-right .btndiv {
+  width: 180px;
+  height: 53px;
+}
+.sct .section-right a {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+.sct .section-right .btn {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  color: #354c04;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+.sct .section-right .btn:before, .sct .section-right .btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #333333;
+}
+.sct .section-right .btn:before {
+  top: 0;
+}
+.sct .section-right .btn:after {
+  bottom: 0;
+}
+.sct .section-right .btn:hover > * > *:before, .sct .section-right .btn:hover > * > *:after {
+  transform: translate3d(0, 0, 0);
+}
+.sct .section-right .btn:hover > * > * > *:before, .sct .section-right .btn:hover > * > * > *:after {
+  transform: translate3d(0, 0, 0);
+}
+.sct .section-right .btn > *:before, .sct .section-right .btn > *:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #333333;
+}
+.sct .section-right .btn > *:before {
+  left: 0;
+}
+.sct .section-right .btn > *:after {
+  right: 0;
+}
+.sct .section-right .btn > * > *:before, .sct .section-right .btn > * > *:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: 9;
+  height: 1px;
+  width: 100%;
+  background-color: #354c04;
+}
+.sct .section-right .btn > * > *:before {
+  top: 0;
+  transform: translate3d(-105%, 0, 0);
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sct .section-right .btn > * > *:after {
+  bottom: 0;
+  transform: translate3d(105%, 0, 0);
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sct .section-right .btn > * > * > *:before, .sct .section-right .btn > * > * > *:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: 9;
+  height: 100%;
+  width: 1px;
+  background-color: #354c04;
+}
+.sct .section-right .btn > * > * > *:before {
+  left: 0;
+  transform: translate3d(0, 105%, 0);
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sct .section-right .btn > * > * > *:after {
+  right: 0;
+  transform: translate3d(0, -105%, 0);
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rast {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.rast .asideleft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.rast .asideleft h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #243305;
+  font-size: 50px;
+  line-height: 1.16em;
+  letter-spacing: em;
+  margin: 25px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.rast .asideleft h3 {
+  font-family: "Ibarra Real Nova", serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #354c04;
+  padding-right: 400px;
+}
+.rast .asideleft h3 hr {
+  width: 30px;
+  height: 1px;
+  outline: none;
+  border: none;
+  background-color: #354c04;
+}
+.rast .asideleft p {
+  margin-top: 40px;
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.16em;
+  letter-spacing: 0.05em;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.rast .asideleft .btndiv {
+  margin-top: 40px;
+  width: 180px;
+  height: 53px;
+}
+.rast .asideleft a {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+.rast .asideleft .btn {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  color: #354c04;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+.rast .asideleft .btn:before, .rast .asideleft .btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #333333;
+}
+.rast .asideleft .btn:before {
+  top: 0;
+}
+.rast .asideleft .btn:after {
+  bottom: 0;
+}
+.rast .asideleft .btn:hover > * > *:before, .rast .asideleft .btn:hover > * > *:after {
+  transform: translate3d(0, 0, 0);
+}
+.rast .asideleft .btn:hover > * > * > *:before, .rast .asideleft .btn:hover > * > * > *:after {
+  transform: translate3d(0, 0, 0);
+}
+.rast .asideleft .btn > *:before, .rast .asideleft .btn > *:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #333333;
+}
+.rast .asideleft .btn > *:before {
+  left: 0;
+}
+.rast .asideleft .btn > *:after {
+  right: 0;
+}
+.rast .asideleft .btn > * > *:before, .rast .asideleft .btn > * > *:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: 9;
+  height: 1px;
+  width: 100%;
+  background-color: #354c04;
+}
+.rast .asideleft .btn > * > *:before {
+  top: 0;
+  transform: translate3d(-105%, 0, 0);
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.rast .asideleft .btn > * > *:after {
+  bottom: 0;
+  transform: translate3d(105%, 0, 0);
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.rast .asideleft .btn > * > * > *:before, .rast .asideleft .btn > * > * > *:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: 9;
+  height: 100%;
+  width: 1px;
+  background-color: #354c04;
+}
+.rast .asideleft .btn > * > * > *:before {
+  left: 0;
+  transform: translate3d(0, 105%, 0);
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.rast .asideleft .btn > * > * > *:after {
+  right: 0;
+  transform: translate3d(0, -105%, 0);
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.rast .asideright {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  padding: 30px;
+  gap: 10px;
+  position: relative;
+  left: 180px;
+}
+.rast .asideright .leftimgbig {
+  width: 40%;
+  height: 90%;
+}
+.rast .asideright .leftimgbig .img1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.rast .asideright .leftimgbig .img1 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.rast .asideright .leftimgbig h3 {
+  margin-top: 30px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #243305;
+  font-size: 24px;
+  line-height: 1.16em;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.rast .asideright .leftimgbig h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #243305;
+  font-size: 13px;
+  line-height: 1.16em;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.rast .asideright .rightbigdiv {
+  width: 40%;
+  height: 90%;
+}
+.rast .asideright .rightbigdiv .img1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.rast .asideright .rightbigdiv .img1 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.rast .asideright .rightbigdiv h3 {
+  margin-top: 30px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #243305;
+  font-size: 24px;
+  line-height: 1.16em;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.rast .asideright .rightbigdiv h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #243305;
+  font-size: 13px;
+  line-height: 1.16em;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.wineagw {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 70px;
+}
+.wineagw h1 {
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #243305;
+  font-size: 40px;
+  line-height: 1.16em;
+  letter-spacing: 0.2em;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.wineagw .textarealdiv {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.wineagw .textarealdiv span {
+  width: 100px;
+  height: 1px;
+  background-color: rgba(53, 76, 4, 0.3019607843);
+  border: none;
+  outline: none;
+}
+.wineagw .textarealdiv p {
+  margin: 0;
+  font-family: "Ibarra Real Nova", serif;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  color: #354c04;
+}
+.wineagw .tripdiv {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wineagw .tripdiv .wineagw-left {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #243305;
+  font-size: 28px;
+  line-height: 1.1785714286em;
+  letter-spacing: 0.085em;
+  margin: 25px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.wineagw .tripdiv h3 {
+  max-width: 340px;
+}
+.wineagw .tripdiv p {
+  margin: 0;
+  font-family: "Ibarra Real Nova", serif;
+  font-style: italic;
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  color: var(--qode-main-color);
+}
+.wineagw .tripdiv .wineagw-right {
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #243305;
+  font-size: 28px;
+  line-height: 1.1785714286em;
+  letter-spacing: 0.085em;
+  margin: 25px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.jos {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 70px;
+}
+.jos h1 {
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #243305;
+  font-size: 40px;
+  line-height: 1.16em;
+  letter-spacing: 0.2em;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.jos .textarealdiv {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.jos .textarealdiv span {
+  width: 100px;
+  height: 1px;
+  background-color: rgba(53, 76, 4, 0.3019607843);
+  border: none;
+  outline: none;
+}
+.jos .textarealdiv p {
+  margin: 0;
+  font-family: "Ibarra Real Nova", serif;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  color: #354c04;
+}
+.jos .treewine {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.jos .treewine .wineagwak {
+  width: 100%;
+  height: 100%;
+  min-width: 480px;
+  max-height: 520px;
+}
+.jos .treewine .wineagwak .imgdiv {
+  width: 100%;
+  height: 80%;
+  position: relative;
+  overflow: hidden;
+  transition: transform 1s ease;
+}
+.jos .treewine .wineagwak .imgdiv img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  transition: 0.5s ease;
+}
+.jos .treewine .wineagwak .imgdiv img:hover {
+  width: 110%;
+}
+.jos .treewine .textdiv {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.jos .treewine .textdiv h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #243305;
+  font-size: 23px;
+  letter-spacing: 0.05em;
+  margin: 25px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.jos .treewine .yearsdiv {
+  margin: 25px 0;
+  width: 100%;
+  height: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #d9d3b8;
+  border-bottom: 1px solid #d9d3b8;
+}
+.jos .treewine .yearsdiv p {
+  font-family: "Ibarra Real Nova", serif;
+  font-style: italic;
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  color: #354c04;
+}
+
+footer {
+  margin-top: 160px;
+  width: 100%;
+  height: 150px;
+  max-height: 100%;
+  border-top: 1px solid #d9d3b8;
+  border-bottom: 1px solid #d9d3b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footertreediv {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+footer .footertreediv .footerdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+footer .footertreediv .footerdiv h2 {
+  margin: 0 0 35px;
+  color: #333;
+}
+
+#last {
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  font-family: "Ibarra Real Nova", serif;
+  font-style: italic;
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  color: #354c04;
 }/*# sourceMappingURL=styles.css.map */
